@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300');
+
+body{
+  font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1,h2,h3,h4{
+  font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+ .navbar{
+        background-color: #2B3441 !important;
+        }
+
+    .con1{
+        padding-left: 75px;
+        padding-right: 75px;
+      }
+
+      .con3{
+        border: 1px solid #D8D8D8; 
+      }
+
+      #footer1{
+        background-color: #252424;
+        padding-left: 75px;
+        padding-right: 75px;
+      }
+
+      .font1 a{
+        font-size: 16px;
+        color: #878383;
+      }
+
+      .font3 {
+        font-size: 13px;
+      }
+
+      #dis2 {
+        display: none;
+      }
+
+      #head1{
+        background-color: #12161C;
+        color: white;
+      }
+      .clrchange{
+        color: initial;
+      }
+      .active {
+        background-color: transparent !important;
+        color: black !important;
+        /*border-bottom: 2px solid red;*/
+
+      }
+
+      #trade1{
+        background-color: #007bff;
+        color: white;
+      }
+      .btn1{
+        border-style: none;
+        width:50%; 
+        height: 40px; 
+        color: white; 
+        background-color: #f69022;
+        border-left: 2px solid #f69022;
+        border-top: : 2px solid #f69022;
+        border-bottom: 2px solid #f69022;
+      }
+
+      .btn12{
+        border-style: none;
+        width:50%; 
+        height: 40px; 
+        color: #f69022; 
+        background-color: black;
+        border-left: 2px solid #f69022;
+        border-top: 2px solid #f69022;
+        border-bottom: 2px solid #f69022;
+      }
+
+
+
+      .btn2{
+        border-style: none;
+        width:50%; 
+        height: 40px;
+        color: #f69022; 
+        background-color: black; 
+        border-right: 2px solid #f69022;
+        border-top: 2px solid #f69022;
+        border-bottom: 2px solid #f69022;
+      }
+
+      .btn21{
+        border-style: none;
+        width:50%; 
+        height: 40px; 
+        color: white; 
+        background-color: #f69022;
+        border-right: 2px solid #f69022;
+        border-top: : 2px solid #f69022;
+        border-bottom: 2px solid #f69022;
+
+      }
+
+      .tabtab1{
+        display: none;
+      }
+
+      @media screen and (max-width: 480px){
+        .con1 {
+          padding-left: 15px;
+          padding-right:15px;
+        }
+        #dis{
+          display: none;
+        }
+        #footer1{
+          padding-left: 15px;
+          padding-right:15px;
+        }
+        .font1{
+        font-size: 10px;
+      }
+        .font2{
+          font-size: 15px;
+        }
+
+        #dis2{
+          display: inline-block;
+        }
+
+        }
+
+        #chartContainer{
+          height: 300px !important;
+        }

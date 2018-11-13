@@ -1,0 +1,58 @@
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+      background-color: #373435;
+    border-color: #373435;
+    }
+
+    body{
+      height: 100%;
+      width: 110%;
+      overflow-x: scroll;
+    }
+
+    .chat{
+        margin-left: -50px;
+        margin-right: -30px;
+        width: auto;
+    }
+    .dropdown-submenu {
+      position: relative;
+    }
+
+    .dropdown-submenu .dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-top: -1px;
+        min-width: 220px;
+
+    }
+    .submenu{
+      padding-top: 5px;
+    }
+    .logo-socmed{
+      margin-top: 20px;
+      padding: 5px;
+      font-size: 28px;
+    }
+
+    .main-footer {
+      background: #27323a;
+      color: #c3c1c1;
+    }
+    
+    div.scrollmenu {
+    background-color: #fff;
+    overflow: auto;
+    white-space: nowrap;
+    }
+
+    div.scrollmenu a {
+        display: inline-block;
+        color: black;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+    }
+
+    div.scrollmenu a:hover {
+        background-color: #777;
+    }
